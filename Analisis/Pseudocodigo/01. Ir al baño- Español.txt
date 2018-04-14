@@ -1,0 +1,40 @@
+-INICIO	
+Me despierto
+Me levanto
+Pongo los pies en el piso
+¿Hay Sandalias?
+-SI                                                                    -NO
+Ponerse las sandalias	                                     No ponerse nada
+Levantarse
+Prender la luz
+Abrir puerta
+Salir
+Cerrar puerta
+Caminar hasta el baño
+Abrir puerta
+Entrar
+Cerrar puerta
+
+Prender la luz
+Bajarse los pantalones
+Sentarse
+Hacer necesidad
+Limpiarse
+Levantarse
+Subirse los pantalones
+Vaciar baño
+Lavarse las manos
+Secarse
+Apagar la luz
+Abrir puerta
+Salir
+Cerrar puerta
+Caminar de nuevo a la habitación
+Abrir puerta
+
+Entrar
+Cerrar puerta 
+Apagar luz
+Acostarse
+Dormir
+-FIN

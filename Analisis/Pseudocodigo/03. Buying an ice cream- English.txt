@@ -1,0 +1,28 @@
+-START
+Catch the keys
+Get out
+Close the door
+Walk to the corner
+Move to the sidewalk in front
+Flip to the right
+Walk to the corner
+Turn to the left
+Walk to the middle of the block
+Enter the store
+Greet
+Order an ice cream
+Remove the coins
+Pay for the ice cream
+
+Store out
+Flip to the right
+Walk to the corner
+Flip to the right
+Walk to the corner
+Turn to the left
+Walk home
+Take out the keys
+Open door
+Get in
+Close the door
+-END

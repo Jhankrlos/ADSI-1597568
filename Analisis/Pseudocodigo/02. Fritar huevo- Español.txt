@@ -1,0 +1,26 @@
+-INICIO
+Pararse de la silla
+Caminar hasta la cocina
+Coger la candela
+Encender la estufa
+Coger el sarten
+Colocarlo en la estufa con la llama encendida
+Coger el aceite
+Echarle aceita al sarten que hay en la estufa
+Coger el huevo
+Totear el huevo hacia alguna esquina
+
+Abrir huevo arriba del sarten que está en la estufa
+Coger el salero
+Echarle sal al huevo que está en el sarten encima de la estufa
+Esperar 3 minutos
+Apagar la estufa
+Coger el sarten
+Poner el sarten en el mesón de la cocina
+Coger un plato
+Servir el huevo
+Devolverse al comedor
+Poner el plato en el comedor
+Sentarse
+Comer el huevo
+-FIN

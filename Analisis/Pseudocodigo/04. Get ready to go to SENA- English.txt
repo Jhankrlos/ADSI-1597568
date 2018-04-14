@@ -1,0 +1,41 @@
+-START
+Take off your clothes
+Take the towel
+Put on my towel
+Exit the room
+Close the door
+Walk to the bathroom
+Open door
+Get in
+Close the door
+Turn on the light
+Open the shower curtain
+Take off my towel
+Put it on the bathroom counter
+Enter the shower
+Close the shower curtain
+Open water tap
+Show me
+Close water tap
+Open shower curtain
+Take the towel
+Dry me
+Get out of the shower
+Put on my towel
+Close the shower curtain
+Turn off the light
+Open door
+Exit the bathroom
+Close the door
+Go to my room
+Open door
+Get in
+Close the door
+Take off my towel
+Dress up
+Open door
+Go out of the room
+Close the door
+Go to the door
+Open door
+-END
