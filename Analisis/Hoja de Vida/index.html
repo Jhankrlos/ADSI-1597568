@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="css/style.css"> <!--My style CSS-->
+    <link rel="stylesheet" href="css/jquery.modal.css"> <!--CSS Windows Modal-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> <!--Font Roboto of Google-->
+</head>
+<body>
+    <!--Top, my personal information-->
+    <div class="above">
+    <img class="photoprofile" src="img/photoprofile.jpg" height="200px" width="175px" align="right">
+    <br>
+    <p><strong>Name:</strong> Jhan Carlos <strong>Lastname:</strong> Lucio Rios</p>
+    <p><strong>Age:</strong> 16</p>
+    <p><strong>Home Adress:</strong> Street 11A 1N-17 <strong>City:</strong> Cartago <strong>Country:</strong> Colombia</p>
+    <p><strong>Cellphone:</strong> +57 301 415 7245</p> 
+    <p><strong>E-mail:</strong> Jhankrloslucio@gmail.com</p>
+    </div>
+
+    <!--Downstairs-->
+    <div class="down">
+
+        <!--Part of the left, my personal references and modal window-->
+        <div class="left">
+
+        <h2>Personal references</h2>
+
+        <!--First personal reference-->
+        <p><strong>Name:</strong> Vanessa Lucio Rios<p/>
+        <p><strong>Cellphone:</strong> +57 316 784 3453 </p>
+        <p><strong>Ocupation: </strong>Industrial Design- Expopanel, Pereira</p>
+
+        <br>
+
+        <!--Second personal reference-->
+        <p><strong>Name:</strong> José David Lopez Marín<p/>
+        <p><strong>Cellphone:</strong> +57 310 373 4090 </p>
+        <p><strong>Ocupation: </strong> Business Advisor- Bancompartir, Pereira</p>
+
+        <br>
+        <br>
+        <br>
+
+        </div>
+        
+        <!--Part of the right, work references-->
+        <div class="right">
+        
+        <h2>Work references</h2>
+
+        <!--First work reference-->
+        <p><strong>Company name:</strong> SmartPeople</p>
+        <p><strong>Position in the company:</strong> Developer</p>
+        <p><strong>Linked time:</strong> 1 year</p>
+        <p><strong>Inmediate boss:</strong> José Antonio Ponton </p>
+        <p><strong>Cellphone:</strong> +57 312 596 8545</p>
+
+        <br>
+
+        <!--Second work reference-->
+        <p><strong>Company name:</strong> Motorola Inc.</p>
+        <p><strong>Position in the company:</strong> Developer</p>
+        <p><strong>Linked time:</strong> 2 years</p>
+        <p><strong>Inmediate boss:</strong> Miguel Angel López </p>
+        <p><strong>Cellphone:</strong> +57 301 845 9736</p>
+
+
+        </div>
+
+        <div class="btn">
+            <!--Window modal-->
+        <button id="btn">See occupational profile</button>  <!--Button-->
+
+         <div style="display: none;" id="modal"> <!--Windows modal-->
+            <h1>Occupational profile</h1>
+            <p>
+                 A systems analyst is responsible for studying the problems and needs present in the organization to determine to what extent the hardware,
+                  software applications, files and databases, networks, people and procedures necessary for solve problems in the most appropriate way and improve
+                   business and information systems.
+                   <br>
+                   <br>
+                 The young analysts of system systems trained in the SENA, are integral professionals, with capacity, critical, solidarity, leaders and entrepreneurs.
+                  With a training that allows to receive advice to organizations of different types on the policies and strategies of development of information systems and systems areas.
+                 With capacity for planning, implementation and control of the implementation of information systems projects.  
+            </p>
+ 
+         </div> 
+        </div>
+    </div>
+
+    <!--Javascript Window modal-->
+<script src="https://code.jquery.com/jquery.js"></script> <!--Library JQuery-->
+<script src="js/jquery.modal.min.js"></script> <!--Modal window Javascript-->
+<script src="js/functionmodal.js"></script> <!--Function Windows Modal-->
+</body>
+</html>

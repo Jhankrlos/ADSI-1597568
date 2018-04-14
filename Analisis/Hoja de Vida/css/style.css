@@ -1,0 +1,64 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.above {
+    background-color: #1F69D7;
+    flex-grow: 0.1;
+    font-size: 3vh;
+    padding-left: 10px;
+}
+
+.down {
+    background-color: #82868C;
+    flex-grow: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    padding-top: 2rem;
+}
+
+body {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100vh;
+    background-color: #82868C;
+}
+
+.photoprofile {
+    padding: 15px;
+    margin: 15px;
+}
+
+
+.left, .right {
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: #82868C;
+    padding-left: 10px;
+}
+
+
+ #btn {
+     background-color: #4088F3;
+     border: black 2px solid;
+     padding: 20px;
+     border-radius: 5px;
+    cursor: pointer; 
+ }
+
+ #btn:hover {
+     background-color: #1F69D7
+ }
+
+ @media (max-width: 767.98px) {
+    * {
+        flex-direction: column;
+    }
+    .btn {
+        align-self: center;
+    }
+}
