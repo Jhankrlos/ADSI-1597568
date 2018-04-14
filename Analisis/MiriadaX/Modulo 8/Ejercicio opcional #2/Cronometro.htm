@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head><title>Cronometro</title><meta charset="UTF-8">
+<script type="text/javascript" src="zepto.min.js" > </script>
+<script type="text/javascript" src="touch.js"> </script>
+
+<style type="text/css">
+	#crono{
+		position: absolute;
+		top: 350px;
+		left: 150px;
+		font-size: 50px;
+		color: black;
+	}
+</style>
+<script type="text/javascript">
+
+
+  $(function(){ 
+    var t, cl = $("#crono");
+
+    function mostrar()  { cl.html((+cl.html() + 0.1).toFixed(1)); };
+    function arrancar() { t=setInterval(mostrar, 100);};
+    function parar()    { clearInterval(t);  t=undefined; };
+    function cambiar()  { if (!t) arrancar(); else parar(); };
+
+    $("body").on('tap', cambiar);
+    $("body").on('swipe', function(){ cl.html("0.0"); });
+
+
+
+  });
+
+
+</script>
+</head>
+<body>
+<div id="main">
+<div id="imgCrono"><img src="cronometro.jpg" alt="cronometro" height="690" width="512">	
+<h2><span id="crono"> 0.0 </span></h2>
+<p>Cronometro para pantallas tactiles</p>
+<p>Para Inicializar: Deslizar</p>
+<p>Para Avanzar/Parar: Tocar</p>
+</span>
+</div>
+</div>
+</body>
+</html>
