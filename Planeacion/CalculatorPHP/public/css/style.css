@@ -1,0 +1,64 @@
+
+/* 
+    
+    Author     : Jhan Carlos Lucio Rios <Jclucio8@misena.edu.co>
+*/
+
+* {
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+}
+
+body {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 1rem;
+    background-color: #BAC0D3;
+}
+
+.number1, .number2 {
+    background-color: #2B2B2C;
+    color: white;
+    border-width: 0px;
+    border-bottom: #ffffff;
+}
+
+.btn {
+    background-color: #D4661E;
+     border: black 2px solid;
+     padding: 20px;
+     border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+     background-color: #B65E00;
+}
+
+.options {
+    background-color: #ffffff;
+}
+
+@media (max-width: 767.98px) {
+    * {
+        flex-direction: column;
+        font-size: 1em;
+    }
+    .btn {
+        align-self: center;
+    }
+    body {
+        padding-top: 4rem;   
+    }
+    .number1, .number2 {
+       padding: 15px;
+    }
+    .options {
+        padding: 13px;
+    }
+}
