@@ -34,5 +34,9 @@
             <br>
             <button class="btn" type="submit">Operate</button>
         </form>
+        <p><?php if (isset($message)=== true):?>
+        <?php echo $message ?>
+         <?php endif ?>   
+        </p>
     </body>    
 </html>

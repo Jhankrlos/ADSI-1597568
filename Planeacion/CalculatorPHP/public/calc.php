@@ -4,7 +4,8 @@ require '../src/calculator.php';
 
 use calculatorPHP\calculator;
 
-/**
+try {
+    /**
  * Get the number of number1
  */
 $number1 = (float) $_GET['number1'];
@@ -53,21 +54,22 @@ else  {
    $message = 'Error: No operation selected'; 
 }
 
-?>
+} catch (Exception $exc) {
+    if ($exc->getCode()=== 404) {
+        $message = $exc->getMessage();
+    } else {
+        echo 'I\'m sorry, we have a problem<br>';
+        echo $exc->getMessage();
+        echo '<br>';
+        echo $exc->getTraceAsString();
+    }
+}finally {
+    if ($message !== null) {
+        require 'index.php';
+    }
+  }
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/styleresult.php">
-        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-        <title>Result</title>
-    </head>    
-    <body>
-        <div class="result">
-<?php echo $message; ?>
-        </div>
-    </body>
-</html>
+
+
+
         
